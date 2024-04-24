@@ -1,19 +1,21 @@
 ---
-name: Bug report
-about: Help us improve by reporting a bug
+name: Bug Report
+about: Reporting An Bug - Help Us Improve
 title: '[Bug]'
 labels: ''
 assignees: ''
 
 ---
 
-<!-- NOTE: Before submitting a new report, please check existing issues to avoid duplication. Thank you for bringing this issue to our attention! -->
+## Bug Report Template
 
-### Bug Description
+NOTE: Before submitting a new report, please check existing issues to avoid duplication. Thank you for bringing this issue to our attention!
+
+#### Bug Description
 
 Provide a clear and concise description of the bug you've encountered.
 
-### Steps to Reproduce
+#### Steps to Reproduce
 
 List the steps to reproduce the bug's behavior:
 
@@ -21,15 +23,15 @@ List the steps to reproduce the bug's behavior:
 2. {steps_2}
 3. {steps_3}
 
-### Expected Behavior
+#### Expected Behavior
 
 Describe what you expected to happen instead of encountering the bug.
 
-### Screenshots and Logs
+#### Screenshots and Logs
 
 Attach logs from the frontend or backend and include screenshots if they help explain the problem.
 
-### System Configuration
+#### System Configuration
 
 Provide details about your system configuration:
 
@@ -40,7 +42,7 @@ Provide details about your system configuration:
 - Search Engine: [e.g., Google]
 - Model: [e.g., GPT, Claude]
 
-### Additional Information
+#### Additional Information
 
 Add any other context or information that could help us understand the problem better.
 

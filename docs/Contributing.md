@@ -1,6 +1,6 @@
 ## Contributing to GitHub Repo Search Tool
 
-Welcome to GitHub Repo Search Tool! We appreciate your contributions to enhance the tool's capabilities and improve its performance. If you encounter any bugs, please create a [GitHub issue](https://github.com/arch3angel/gitreposearch) to report them.
+Welcome to GitHub Repo Search Tool! We appreciate your contributions to enhance the tool's capabilities and improve its performance. If you encounter any bugs, please create a [GitHub issue](https://github.com/arch3angel/gitreposearch/issues) to report them.
 
 Before contributing, please follow these steps:
 
@@ -11,17 +11,18 @@ Before contributing, please follow these steps:
 5. **Dependencies**: If your changes depend on specific libraries, tools, or versions, mention them in your pull request and update the relevant documentation.
 6. **Submit a Pull Request**: After making your changes and completing testing, submit a pull request to the main repository's `main` branch.
 
-### Pull Request Guidelines
+#### Pull Request Guidelines
 
 When submitting a pull request, please follow these guidelines:
 
 1. **Title Prefixes**:
-   - `Feature:` for new features
-   - `Fix:` for bug fixes
-   - `Docs:` for documentation changes
-   - `Refactor:` for code refactoring
-   - `Improve:` for performance improvements
-   - `Other:` for other changes
+   - `Feature:` New Features
+   - `Issue:` Issue Fixes
+   - `Bug:` Bug Fixes
+   - `Docs:` Documentation Changes
+   - `Templates:` Template Changes
+   - `Improve:` Application Improvements
+   - `Other:` Other Changes - Explain Changes
 
    For example:
    - `Feature: Added new feature to the code`

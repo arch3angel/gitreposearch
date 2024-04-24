@@ -2,11 +2,11 @@
 
 #### 1. Clone the GitHub Repository Search App from the repository link.
 
-    git clone https://github.com/your-username/github-repo-search.git
+    git clone https://github.com/arch3angel/gitreposearch.git
 
 #### 2. Navigate to the project directory.
 
-    cd github-repo-search
+    cd gitreposearch
 
 #### 3. Initialize the project with Poetry.
 
@@ -20,7 +20,7 @@ Follow the prompts to fill in the project details such as name, version, descrip
 
 #### 5. Run the Streamlit app.
 
-    streamlit run github_repo_search.py
+    streamlit run gitreposearch.py
 
 #### Usage
 
@@ -32,12 +32,14 @@ Follow the prompts to fill in the project details such as name, version, descrip
 
 #### Dependencies
 
-* Python 3.6+
+* Python 3.12
 * Streamlit
 * Requests
 * Time
 * Math
 * OS
+* Python-Dotenv
+* Altair
 * Poetry (for dependency management)
 
 #### ***Notes***

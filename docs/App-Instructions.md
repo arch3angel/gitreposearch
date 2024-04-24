@@ -9,21 +9,23 @@ This Streamlit application allows you to search for GitHub repositories based on
 1. Enter your search criteria in the text input box under the title "GitHub Repository Search"
 2. Click the "Search" button to start the search.
 
+#### Documentation Selection
+
+1. In the left sidebar titled "Menu", you can see a dropdown menu.
+2. Use the dropdown to select "Documentation" view its contents.
+3. Then select the document you would like to review and it will be displayed in the main area below the search bar.
+
+#### Templates Selection
+
+1. In the left sidebar titled "Menu", you can see a dropdown menu.
+2. Use the dropdown to select "Templates" view its contents.
+3. Then select the template you would like to review and it will be displayed in the main area below the search bar.
+
 #### Search Results
 
-- The search results will be displayed in real-time under the search criteria input box.
-- Each page processed will be shown, indicating the progress of the search.
-
-#### Markdown File Selection
-
-1. In the left sidebar titled "Select .md file:", you can see a dropdown menu.
-2. Use the dropdown to select any available .md file to view its contents.
-3. The selected .md file will be displayed in the main area below the search bar and results.
-
-#### Clear Search
-
-- If you need to clear the search criteria, click the "Reset Search" button.
-- This will clear the search bar of all characters, allowing you to enter new search criteria.
+1. In the left sidebar titled "Menu", you can see a dropdown menu.
+2. Use the dropdown to select "Search Results" view its contents.
+3. Then select the file associated to your search criteria and it will be displayed in the main area below the search bar.
 
 #### Stop Search
 

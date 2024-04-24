@@ -1,19 +1,20 @@
 ---
-name: Issue
-about: Report an issue to help us improve
+name: Issue Report
+about: Reporting An Issue - Help Us Improve
 title: '[ISSUE]'
 labels: ''
 assignees: ''
 
 ---
+## Issue Template
 
-<!-- NOTE: Before submitting a new issue, please check existing issues to avoid duplicates. Thank you for reporting this issue! -->
+NOTE: Before submitting a new issue, please check existing issues to avoid duplicates. Thank you for reporting this issue!
 
-### Describe Your Issue
+#### Describe Your Issue
 
 Provide a clear and concise description of the issue you're encountering.
 
-### Steps to Reproduce
+#### Steps to Reproduce
 
 Outline the steps to reproduce the behavior:
 
@@ -21,15 +22,15 @@ Outline the steps to reproduce the behavior:
 2. {steps_2}
 3. {steps_3}
 
-### Expected Behavior
+#### Expected Behavior
 
 Describe what you expected to happen instead of the observed issue.
 
-### Screenshots and Logs
+#### Screenshots and Logs
 
 Include logs from the frontend or backend. If applicable, attach screenshots to illustrate the problem.
 
-### Configuration
+#### Configuration
 
 Provide details about your system configuration:
 
@@ -40,7 +41,7 @@ Provide details about your system configuration:
 - Search Engine: [e.g., Google]
 - Model: [e.g., GPT, Claude]
 
-#### Additional Context
+##### Additional Context
 
 Add any additional context or information about the issue here.
 
