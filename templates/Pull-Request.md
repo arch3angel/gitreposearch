@@ -1,6 +1,25 @@
-## Pull Request Template
+<div align="center">
+
+<img src="../images/gitreposearch_logo.png" alt="GitHub Repo Search Logo" width="250" height="220" />
+
+## **GitHub Repo Search**
+
+**GitHub Repo Search**: A Streamlit app for searching GitHub repositories based on user criteria.
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/arch3angel/gitreposearch)](https://github.com/arch3angel/gitreposearch)
+[![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD_3--Clause-purple.svg)](https://opensource.org/license/bsd-3-clause)
+
+</div>
+
+---
+
+### Pull Request Template
+
+---
 
 NOTE: To avoid duplicate work, please check existing pull requests before submitting a new one. Your contribution is appreciated!
+
+---
 
 #### Description
 

@@ -1,41 +1,85 @@
-## Overview
+<div align="center">
+
+<img src="../images/gitreposearch_logo.png" alt="GitHub Repo Search Logo" width="250" height="220" />
+
+## **GitHub Repo Search**
+
+**GitHub Repo Search**: A Streamlit app for searching GitHub repositories based on user criteria.
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/arch3angel/gitreposearch)](https://github.com/arch3angel/gitreposearch)
+[![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD_3--Clause-purple.svg)](https://opensource.org/license/bsd-3-clause)
+
+</div>
+
+---
+
+### Application Instructions
+
+---
+
+#### Table of contents
+
+- [Overview](#overview)
+- [Instructions](#instructions)
+    - [Search Criteria](#instructions-search-criteria)
+    - [Documentation Selection](#instructions-documentation-selection)
+    - [Templates Selection](#instructions-templates-selection)
+    - [Search Results](#instructions-search-results)
+    - [Stop Active Search](#instructions-stop-active-search)
+- [Important Note](#important-note)
+
+### Overview {#overview}
 
 This Streamlit application allows you to search for GitHub repositories based on your criteria and view the search results conveniently.
 
-## Instructions
+---
 
-#### Search Criteria
+### Instructions {#instructions}
+
+---
+
+#### Search Criteria {#instructions-search-criteria}
 
 1. Enter your search criteria in the text input box under the title "GitHub Repository Search"
 2. Click the "Search" button to start the search.
 
-#### Documentation Selection
+---
+
+#### Documentation Selection {#instructions-documentation-selection}
 
 1. In the left sidebar titled "Menu", you can see a dropdown menu.
 2. Use the dropdown to select "Documentation" view its contents.
 3. Then select the document you would like to review and it will be displayed in the main area below the search bar.
 
-#### Templates Selection
+---
+
+#### Templates Selection {#instructions-templates-selection}
 
 1. In the left sidebar titled "Menu", you can see a dropdown menu.
 2. Use the dropdown to select "Templates" view its contents.
 3. Then select the template you would like to review and it will be displayed in the main area below the search bar.
 
-#### Search Results
+---
+
+#### Search Results {#instructions-search-results}
 
 1. In the left sidebar titled "Menu", you can see a dropdown menu.
 2. Use the dropdown to select "Search Results" view its contents.
 3. Then select the file associated to your search criteria and it will be displayed in the main area below the search bar.
 
-#### Stop Search
+---
+
+#### Stop Active Search {#instructions-stop-active-search}
 
 - To stop the current search in progress, click the "Stop" button.
 - Once stopped, the application will create a Markdown file containing the search results.
 
-## ***Important Note***
+---
+
+## ***Important Note*** {#important-note}
+
+---
 
 GitHub's API limits the number of results to a ***maximum of 1000 per search***. This limitation is set by GitHub's API and not by this application. If your search criteria yields more than 1000 results, only the first 1000 results will be displayed.
 
 ---
-
-Enjoy using the GitHub Repository Search Tool!

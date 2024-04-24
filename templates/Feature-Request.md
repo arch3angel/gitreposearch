@@ -1,15 +1,25 @@
----
-name: Feature Request
-about: Share Your Idea - Lets Enhance The Project
-title: '[FEATURE]'
-labels: ''
-assignees: ''
+<div align="center">
+
+<img src="../images/gitreposearch_logo.png" alt="GitHub Repo Search Logo" width="250" height="220" />
+
+## **GitHub Repo Search**
+
+**GitHub Repo Search**: A Streamlit app for searching GitHub repositories based on user criteria.
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/arch3angel/gitreposearch)](https://github.com/arch3angel/gitreposearch)
+[![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD_3--Clause-purple.svg)](https://opensource.org/license/bsd-3-clause)
+
+</div> 
 
 ---
 
-## Feature Request Template
+### Feature Request Template
+
+---
 
 NOTE: Please check existing issues before submitting a new one to avoid duplicates. Thank you for proposing this feature idea!
+
+---
 
 #### What Problem Does Your Feature Address?
 

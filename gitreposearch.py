@@ -213,5 +213,5 @@ nav_options = {
     'Search Results': search_results
 }
 
-selected_page = st.sidebar.selectbox('Select Function', list(nav_options.keys()))
+selected_page = st.sidebar.selectbox('Menu', list(nav_options.keys()))
 nav_options[selected_page]()
