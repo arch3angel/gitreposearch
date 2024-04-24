@@ -38,6 +38,7 @@ Follow the prompts to fill in the project details such as name, version, descrip
 * Time
 * Math
 * OS
+* Datetime
 * Python-Dotenv
 * Altair
 * Poetry (for dependency management)

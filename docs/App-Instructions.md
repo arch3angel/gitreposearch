@@ -19,18 +19,18 @@ This Streamlit application allows you to search for GitHub repositories based on
 
 ---
 
-### Instructions {#instructions}
+### Instructions
 
 ---
 
-#### Search Criteria {#instructions-search-criteria}
+#### Search Criteria
 
 1. Enter your search criteria in the text input box under the title "GitHub Repository Search"
 2. Click the "Search" button to start the search.
 
 ---
 
-#### Documentation Selection {#instructions-documentation-selection}
+#### Documentation Selection
 
 1. In the left sidebar titled "Menu", you can see a dropdown menu.
 2. Use the dropdown to select "Documentation" view its contents.
@@ -38,7 +38,7 @@ This Streamlit application allows you to search for GitHub repositories based on
 
 ---
 
-#### Templates Selection {#instructions-templates-selection}
+#### Templates Selection
 
 1. In the left sidebar titled "Menu", you can see a dropdown menu.
 2. Use the dropdown to select "Templates" view its contents.
@@ -46,7 +46,7 @@ This Streamlit application allows you to search for GitHub repositories based on
 
 ---
 
-#### Search Results {#instructions-search-results}
+#### Search Results
 
 1. In the left sidebar titled "Menu", you can see a dropdown menu.
 2. Use the dropdown to select "Search Results" view its contents.
@@ -54,14 +54,14 @@ This Streamlit application allows you to search for GitHub repositories based on
 
 ---
 
-#### Stop Active Search {#instructions-stop-active-search}
+#### Stop Active Search
 
 - To stop the current search in progress, click the "Stop" button.
 - Once stopped, the application will create a Markdown file containing the search results.
 
 ---
 
-## ***Important Note*** {#important-note}
+## ***Important Note***
 
 ---
 

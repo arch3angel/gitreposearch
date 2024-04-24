@@ -3,6 +3,7 @@ import requests
 import time
 import math
 import os
+import datetime
 
 from dotenv import load_dotenv
 
@@ -11,6 +12,12 @@ load_dotenv()
 
 # Retrieve GitHub token from environment variables
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+
+gitreposearch_logo = "./images/gitreposearch_logo.png"
+gitreposearch_logo_width = 250
+
+# Get the current date and time
+current_datetime = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
 
 # Create the "docs" directory if it doesn't exist
 if not os.path.exists("docs"):
@@ -73,7 +80,8 @@ def search_github_and_save_markdown(search_criteria, github_token):
         markdown_content = f"---\n"
         markdown_content += f"### [ {search_criteria} ]\n"
         markdown_content += f"#### Summary\n"
-        markdown_content += f"###### Total Repositories On GitHub: {len(total_repositories)}\n"
+        markdown_content += f"###### Timestamp [YYYYMMDDHHMMSS]: {current_datetime}\n"  # Add timestamp here
+        markdown_content += f"###### Total Repositories In Your Search: {len(total_repositories)}\n"
         markdown_content += f"---\n"
 
         for repo in total_repositories:
@@ -88,7 +96,7 @@ def search_github_and_save_markdown(search_criteria, github_token):
             markdown_content += f"---\n"
 
         # Save Markdown content to file in the "docs" directory and its subdirectories
-        file_name = f"search-results/{search_criteria}.md"
+        file_name = f"search-results/{search_criteria}_{current_datetime}.md"
         with open(file_name, 'w', encoding='utf-8') as file:
             file.write(markdown_content)
         st.write(f"Markdown File '{file_name}' With Complete Repository List And Summary Saved Successfully.")
@@ -121,10 +129,10 @@ def get_total_pages(search_criteria, per_page, github_token):
 
 # Home Page
 def home():
-    st.image("./images/gitreposearch_logo.png", width=250)
+    st.image(f"{gitreposearch_logo}", width=gitreposearch_logo_width)
     st.title('GitHub Repository Search Tool')
     st.markdown("A Streamlit app for searching GitHub repositories based on user criteria.<br>", unsafe_allow_html=True)
-    st.sidebar.markdown("<small style='font-size: 0.8em;'>Date: 2024-04-24</small><br><small style='font-size: 0.8em;'>Version: 0.1.0</small>", unsafe_allow_html=True)
+    st.sidebar.markdown("<small style='font-size: 0.8em;'>Version: 0.1.0</small>", unsafe_allow_html=True)
 
     # Create the search bar and search button layout
     search_criteria = st.text_input('Enter Your Search Criteria For GitHub Repositories:')
@@ -135,9 +143,9 @@ def home():
 
 # Documentation Page
 def documentation():
-    st.image("./images/gitreposearch_logo.png", width=250)
+    st.image(f"{gitreposearch_logo}", width=gitreposearch_logo_width)
     st.title('GitHub Repo Search Documentation')
-    st.sidebar.markdown("<small style='font-size: 0.8em;'>Date: 2024-04-24</small><br><small style='font-size: 0.8em;'>Version: 0.1.0</small>", unsafe_allow_html=True)
+    st.sidebar.markdown("<small style='font-size: 0.8em;'>Version: 0.1.0</small>", unsafe_allow_html=True)
 
     # List all available .md files in the "docs" directory and its subdirectories
     docs_md_files = []
@@ -164,9 +172,9 @@ def documentation():
 
 # Templates Page
 def templates():
-    st.image("./images/gitreposearch_logo.png", width=250)
+    st.image(f"{gitreposearch_logo}", width=gitreposearch_logo_width)
     st.title('GitHub Support Templates')
-    st.sidebar.markdown("<small style='font-size: 0.8em;'>Date: 2024-04-24</small><br><small style='font-size: 0.8em;'>Version: 0.1.0</small>", unsafe_allow_html=True)
+    st.sidebar.markdown("<small style='font-size: 0.8em;'>Version: 0.1.0</small>", unsafe_allow_html=True)
 
     # List all available .md files in the "templates" directory and its subdirectories
     templates_md_files = []
@@ -193,8 +201,9 @@ def templates():
 
 # Search Results Page
 def search_results():
-    st.image("./images/gitreposearch_logo.png", width=250)
+    st.image(f"{gitreposearch_logo}", width=gitreposearch_logo_width)
     st.title('Your Search Results')
+    st.sidebar.markdown("<small style='font-size: 0.8em;'>Version: 0.1.0</small>", unsafe_allow_html=True)
 
     # List all available .md files in the "search-results" directory
     search_result_files = []
