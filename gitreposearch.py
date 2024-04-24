@@ -36,13 +36,17 @@ def home():
     st.image(f"{gitreposearch_logo}", width=gitreposearch_logo_width)
     st.title('GitHub Repository Search Tool')
     st.markdown("A Streamlit app for searching GitHub repositories based on user criteria.<br>", unsafe_allow_html=True)
+    st.markdown('---')
     st.sidebar.markdown("<small style='font-size: 0.8em;'>Version: 0.1.0</small>", unsafe_allow_html=True)
 
     # Create the search bar, radio button group, and search button layout
-    search_criteria = st.text_input('Enter Your Search Criteria For GitHub Repositories:')
-    star_range = st.radio('Select Star Range:', ["Most Likes", "0-50 Stars", "50-100 Stars", "100-150 Stars", "150-200 Stars", "200-250 Stars", "250-500 Stars", "Greater Than 500 Stars"])
+    search_criteria = st.text_input('Enter Your Search Criteria Here:')
+    st.markdown('---')
+    star_range = st.radio('Select The Range Of Stars:', ["Most Likes", "0-50 Stars", "50-100 Stars", "100-150 Stars", "150-200 Stars", "200-250 Stars", "250-500 Stars", "Greater Than 500 Stars"])
+    st.markdown('---')
     include_forks = st.checkbox('Do Not Include Forked Repositories')
-    search_button = st.button('Search GitHub')
+    st.markdown('---')
+    search_button = st.button('Search GitHub Repositories')
 
     # Check if the search button is clicked
     if search_button:
