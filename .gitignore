@@ -1,0 +1,8 @@
+# local env files
+.env
+
+# Python
+__pycache__/
+
+# Exclude .md files under search-results directory
+search-results/*.md

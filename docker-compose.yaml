@@ -1,0 +1,15 @@
+version: '0.1.0'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - "YOUR-TOKEN-HERE"
+      - PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python  # Add this line for the workaround
+    volumes:
+      - ./gitreposearch.py:/app/gitreposearch.py
+      - ./requirements.txt:/app/requirements.txt
+      - ./search-results:/app/search-results
+      - ./docs:/app/docs
