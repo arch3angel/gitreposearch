@@ -121,18 +121,23 @@ def get_total_pages(search_criteria, per_page, github_token):
 
 # Home Page
 def home():
+    st.image("./images/gitreposearch_logo.png", width=250)
     st.title('GitHub Repository Search Tool')
-    st.markdown("<small style='font-size: 0.8em;'>Date: 2024-04-24</small><br><small style='font-size: 0.8em;'>Version: 0.1.0</small>", unsafe_allow_html=True)
+    st.markdown("A Streamlit app for searching GitHub repositories based on user criteria.<br>", unsafe_allow_html=True)
+    st.sidebar.markdown("<small style='font-size: 0.8em;'>Date: 2024-04-24</small><br><small style='font-size: 0.8em;'>Version: 0.1.0</small>", unsafe_allow_html=True)
+
     # Create the search bar and search button layout
-    search_criteria = st.text_input('Enter Search Criteria For GitHub Repositories:')
-    search_button = st.button('Search')
+    search_criteria = st.text_input('Enter Your Search Criteria For GitHub Repositories:')
+    search_button = st.button('Search GitHub')
     # Check if the search button is clicked
     if search_button:
         search_github_and_save_markdown(search_criteria, GITHUB_TOKEN)
 
 # Documentation Page
 def documentation():
-    st.title('Documentation')
+    st.image("./images/gitreposearch_logo.png", width=250)
+    st.title('GitHub Repo Search Documentation')
+    st.sidebar.markdown("<small style='font-size: 0.8em;'>Date: 2024-04-24</small><br><small style='font-size: 0.8em;'>Version: 0.1.0</small>", unsafe_allow_html=True)
 
     # List all available .md files in the "docs" directory and its subdirectories
     docs_md_files = []
@@ -159,7 +164,9 @@ def documentation():
 
 # Templates Page
 def templates():
-    st.title('Templates')
+    st.image("./images/gitreposearch_logo.png", width=250)
+    st.title('GitHub Support Templates')
+    st.sidebar.markdown("<small style='font-size: 0.8em;'>Date: 2024-04-24</small><br><small style='font-size: 0.8em;'>Version: 0.1.0</small>", unsafe_allow_html=True)
 
     # List all available .md files in the "templates" directory and its subdirectories
     templates_md_files = []
@@ -186,7 +193,8 @@ def templates():
 
 # Search Results Page
 def search_results():
-    st.title('Search Results')
+    st.image("./images/gitreposearch_logo.png", width=250)
+    st.title('Your Search Results')
 
     # List all available .md files in the "search-results" directory
     search_result_files = []
@@ -198,7 +206,7 @@ def search_results():
     search_result_files_stripped = [os.path.splitext(file)[0] for file in search_result_files]
 
     # Dropdown to select .md file in the center of the page
-    selected_file = st.selectbox('Select Search To Review:', search_result_files_stripped)
+    selected_file = st.selectbox('Select Your Search To Review:', search_result_files_stripped)
 
     # Display selected .md file content in the main area
     if selected_file:
