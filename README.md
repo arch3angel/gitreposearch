@@ -1,8 +1,6 @@
 ## gitreposearch
 
-<div style="text-align: center;">
-    <img src="./images/gitreposearch_logo.png" alt="GitRepoSearch Logo" width="250" height="220" />
-</div>
+<img src="./images/gitreposearch_logo.png" alt="GitRepoSearch Logo" width="250" height="220" />
 
 Welcome to gitreposearch, a Streamlit app for searching GitHub repositories based on user criteria.
 
