@@ -25,17 +25,17 @@
 - [License](#license)
 
 
-#### Overview {#overview}
+#### Overview
 
 **GitHub Repo Search** allows you to search GitHub repositories using specific criteria, providing a convenient way to find repositories based on your needs.
 
-#### Features {#features}
+#### Features
 
 - Search GitHub repositories by various criteria.
 - View detailed information about search results.
 - Navigate and explore GitHub repositories seamlessly.
 
-#### Getting Started {#getting-started}
+#### Getting Started
 
 To run gitreposearch locally, follow these steps:
 
@@ -43,7 +43,7 @@ To run gitreposearch locally, follow these steps:
 2. Install the required dependencies by running `pip install -r requirements.txt`.
 3. Run the Streamlit app using the command `streamlit run app.py`.
 
-#### Usage {#usage}
+#### Usage
 
 Once the app is running, you can:
 
@@ -51,7 +51,7 @@ Once the app is running, you can:
 - Click the "Search" button to retrieve GitHub repositories matching your criteria.
 - Explore the search results and click on repository links for more details.
 
-#### Documentation Directory {#documentation-directory}
+#### Documentation Directory
 
 The `Docs` directory contains the following essential documentation files:
 
@@ -62,7 +62,7 @@ The `Docs` directory contains the following essential documentation files:
 
 _These documents are also available inside the application in the left sidebar menu._
 
-#### Templates Directory {#templates-directory}
+#### Templates Directory
 
 The "templates" directory contains templates for various purposes, including:
 
@@ -74,7 +74,7 @@ The "templates" directory contains templates for various purposes, including:
 
 _You can access these templates from within the application in the left sidebar menu._
 
-#### Search Results Directory {#search-results-directory}
+#### Search Results Directory
 
 The `search-results` directory contains markdown files that represent the search results obtained from GitHub based on user search criteria. Each markdown file in this directory corresponds to a specific search query and provides detailed information about the repositories found.
 
@@ -86,7 +86,7 @@ To view the search results:
 
 _You can also review search results directly from the application's left sidebar menu._
 
-#### Contributing {#contributing}
+#### Contributing
 
 We welcome contributions to GitRepoSearch! To contribute, please follow the guidelines outlined in the `Documentation` directory, specifically the `Contributing.md` file. Here's a summary of the contribution process:
 
@@ -98,11 +98,11 @@ We welcome contributions to GitRepoSearch! To contribute, please follow the guid
 
 For detailed instructions and guidelines, refer to the `Contributing.md` file in the `Docs` directory.
 
-#### Credits {#credits}
+#### Credits
 
 - [Streamlit](https://streamlit.io/) - The app framework used.
 - [GitHub API](https://developer.github.com/v3/) - API used for repository search.
 
-#### License {#license}
+#### License
 
 This project is licensed under the BSD 3-Clause License. See the [LICENSE](./docs/License.md) file for more details.
